@@ -1,16 +1,28 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Montserrat');
 
+#header a.logo {
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+
+}
 #header {
     background: #144DCC !important;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 #header a {
     color: #ffffff;
     background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+
   }
 
   #header p {
     color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+
   }
 
  #header ul {
