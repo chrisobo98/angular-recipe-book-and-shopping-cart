@@ -6,6 +6,7 @@ import { Recipe } from '../recipe.model';
   templateUrl: './recipe-list.component.html',
   styleUrls: ['./recipe-list.component.css']
 })
+
 export class RecipeListComponent implements OnInit {
   // uses my own Recipe model in recipe.model.ts
   recipes: Recipe[] = [

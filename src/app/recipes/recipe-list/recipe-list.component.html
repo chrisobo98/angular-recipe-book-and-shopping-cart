@@ -5,9 +5,14 @@
 </div>
 <div class="row">
     <div class="col-xs-12">
-        <a href="#" class="list-group-item clearfix">
+        <!-- ngFor is the directive which allows us to loop through our code -->
+        <a 
+        href="#" 
+        class="list-group-item clearfix" 
+        *ngFor="let recipe of recipes">
             <div class="pull-left">
-                <h4 class="list-group-item-heading">Recipe Name</h4>
+                <!-- {{  }} string interpolation. allows us to output text anywhere in our template  -->
+                <h4 class="list-group-item-heading">{{ recipe }}</h4>
                 <p class="list-group-item-text">Description</p>
             </div>
             <span class="pull-right">
