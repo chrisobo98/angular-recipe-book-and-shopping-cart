@@ -1,3 +1,5 @@
+// Ingredient Model, describing how the ingredient should look like
+
 // Instead of using the code below, typescript offers a shortcut
 // export class Ingredient {
 //     public name: string;
