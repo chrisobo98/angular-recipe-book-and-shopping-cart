@@ -7,12 +7,16 @@ section {
   padding: 30px 0;
 }
 
+#container {
+  min-height:100%;
+  position:relative;
+}
+
 #footer {
   background: #144DCC !important;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  line-height: 20px; /* Vertically center the text there */
+  position:fixed;
+  bottom:0;
+  width:100%;
   font-family: 'Montserrat', sans-serif;
 
 }

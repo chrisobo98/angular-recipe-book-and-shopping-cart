@@ -12,6 +12,15 @@
 
 }
 
+.icon-bar
+{
+  background: rgb(62, 123, 255) !important; /*Whatever colour you want for icon lines*/
+}
+.navbar-toggle
+{
+  background: rgb(11, 40, 104) !important; /*Whatever colour you want for background */
+}
+
 #header a {
     color: #ffffff;
     background-color: transparent;
@@ -29,3 +38,7 @@
     color: #000000;
 
  }
+
+ .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: darkblue; /* Whatever Colour you want */
+}
