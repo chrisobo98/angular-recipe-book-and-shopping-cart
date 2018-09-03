@@ -13,24 +13,10 @@
 
       <div class="collapse navbar-collapse" id="navbar">
         <ul class="nav navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Recipes
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li>
-            <a class="nav-link" href="#">Shopping List</a>
-          </li>
+          <!-- click listners onSelect methods for recipe and shopping list links  -->
+          <li><a href="#" (click)="onSelect('recipe')">Recipes</a></li>
+          <li><a href="#" (click)="onSelect('shopping-list')">Shopping List</a></li>
         </ul>
-
-        <form class="navbar-form navbar-right form-inline my-2 my-lg-0">
-            <div class="input-group mb-3">
-              <input type="text" class="form-control" placeholder="Recipe Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
-              <span class="input-group-btn">
-                <button class="btn btn-outline-secondary" type="button">Search</button>
-              </span>
-            </div>
-          </form>
 
         <!-- Right aligned items -->
         <ul class="nav navbar-nav navbar-right">
